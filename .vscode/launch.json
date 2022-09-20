@@ -3,29 +3,16 @@
     // Hover to view descriptions of existing attributes.
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
-    "configurations":
-    [
+    "configurations": [
+
         {
-            "name":"Debug",
-            "miDebuggerPath": "c:\\msys64\\mingw64.exe",
-            "type": "cppdbg",
+            "type": "lldb",
             "request": "launch",
-            "program": "${workspaceFolder}/hello.exe",
+            "name": "Debug",
+            "program": "${workspaceFolder}/hello",
+            "args": [],
             "cwd": "${workspaceFolder}",
-            "stopAtEntry": false,
-            "environment": [{ "name": "config", "value": "Debug"}],
-            "externalConsole": false, 
-            "MIMode": "gdb",           
-            "setupCommands": 
-            [
-                {
-                    "description": "Enable pretty printing for gdb",
-                    "text": "-enable-pretty-printing",
-                    "ignoreFailures": true,
-                }
-            ]
+            "console": "externalTerminal"
         }
-        
     ]
-    
 }

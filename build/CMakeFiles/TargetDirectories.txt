@@ -2,7 +2,7 @@ C:/Users/sceylan/source/repos/git/Qt/build/CMakeFiles/Experimental.dir
 C:/Users/sceylan/source/repos/git/Qt/build/CMakeFiles/Nightly.dir
 C:/Users/sceylan/source/repos/git/Qt/build/CMakeFiles/Continuous.dir
 C:/Users/sceylan/source/repos/git/Qt/build/CMakeFiles/NightlyMemoryCheck.dir
-C:/Users/sceylan/source/repos/git/Qt/build/CMakeFiles/Qt_first.dir
+C:/Users/sceylan/source/repos/git/Qt/build/CMakeFiles/sc_qt.dir
 C:/Users/sceylan/source/repos/git/Qt/build/CMakeFiles/PACKAGE.dir
 C:/Users/sceylan/source/repos/git/Qt/build/CMakeFiles/RUN_TESTS.dir
 C:/Users/sceylan/source/repos/git/Qt/build/CMakeFiles/ALL_BUILD.dir
