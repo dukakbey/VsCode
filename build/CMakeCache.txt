@@ -118,7 +118,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=Qt_first
+CMAKE_PROJECT_NAME:STATIC=hello
 
 //Value Computed by CMake
 CMAKE_PROJECT_VERSION:STATIC=0.1.0
@@ -269,6 +269,15 @@ Qt_first_SOURCE_DIR:STATIC=C:/Users/sceylan/source/repos/git/Qt
 
 //Name of the computer/site where compile is being run
 SITE:STRING=DESKTOP-2591NRP
+
+//Value Computed by CMake
+hello_BINARY_DIR:STATIC=C:/Users/sceylan/source/repos/git/Qt/build
+
+//Value Computed by CMake
+hello_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+hello_SOURCE_DIR:STATIC=C:/Users/sceylan/source/repos/git/Qt
 
 
 ########################
