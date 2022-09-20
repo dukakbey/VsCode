@@ -246,9 +246,6 @@ CTEST_SUBMIT_RETRY_DELAY:STRING=5
 //Maximum time allowed before CTest will kill the test.
 DART_TESTING_TIMEOUT:STRING=1500
 
-//Path to a program.
-GITCOMMAND:FILEPATH=C:/Program Files/Git/cmd/git.exe
-
 //Command to build the project
 MAKECOMMAND:STRING="C:\Program Files\CMake\bin\cmake.exe" --build . --config "${CTEST_CONFIGURATION_TYPE}"
 
@@ -268,7 +265,7 @@ sc_qt_BINARY_DIR:STATIC=C:/Users/sceylan/source/repos/git/Qt/build
 sc_qt_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-sc_qt_SOURCE_DIR:STATIC=C:/Users/sceylan/source/repos/git/Qt
+sc_qt_SOURCE_DIR:STATIC=C:/Users/sceylan/source/repos/git/Qt/build
 
 
 ########################
@@ -341,7 +338,7 @@ CMAKE_GENERATOR_PLATFORM:INTERNAL=x64
 CMAKE_GENERATOR_TOOLSET:INTERNAL=host=x64
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=C:/Users/sceylan/source/repos/git/Qt
+CMAKE_HOME_DIRECTORY:INTERNAL=C:/Users/sceylan/source/repos/git/Qt/build
 //ADVANCED property for variable: CMAKE_LINKER
 CMAKE_LINKER-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MODULE_LINKER_FLAGS
@@ -429,8 +426,6 @@ CTEST_SUBMIT_RETRY_COUNT-ADVANCED:INTERNAL=1
 CTEST_SUBMIT_RETRY_DELAY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: DART_TESTING_TIMEOUT
 DART_TESTING_TIMEOUT-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: GITCOMMAND
-GITCOMMAND-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: MAKECOMMAND
 MAKECOMMAND-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: MEMORYCHECK_COMMAND
