@@ -5,10 +5,9 @@ int main()
 {
     string username;
     cin>>username;
-    cout<<"hello "<<username<<endl;
-    cout<<"are you ready for the euroleauge game!!"<<std::endl;
-    cout << "are you ready for the game!!" << std::endl;
-    system("pause");
+    cout<<"we're continue to training";
+    //system("pause");
     return 0;
-
+ 
 }
+ 
